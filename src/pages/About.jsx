@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div className="background-wrapper background-wrapper-about">
       <section className="hero frosted-card frosted-card-about">
-        <img className="hero-portrait hero-portrait-about" src="/assets/shared/images/portrait_square.png" alt="A portrait of Roderick Ellis"></img>
+        <img className="hero-portrait hero-portrait-about" src="/assets/shared/images/portrait_square.webp" alt="A portrait of Roderick Ellis"></img>
         <section className="prose">
           <h1>About Me</h1>
           <p className="lead">A short introduction: who you are and what you do.</p>

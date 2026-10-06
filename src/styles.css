@@ -245,15 +245,15 @@ ul {
 }
 
 .background-wrapper-home {
-  background-image: url('/assets/home/images/background.png');
+  background-image: url('/assets/home/images/background.webp');
 }
 
 .background-wrapper-projects {
-  background-image: url('/assets/projects/images/background.png');
+  background-image: url('/assets/projects/images/background.webp');
 }
 
 .background-wrapper-about {
-  background-image: url('/assets/about/images/background.png');
+  background-image: url('/assets/about/images/background.webp');
 }
 
 .frosted-card {

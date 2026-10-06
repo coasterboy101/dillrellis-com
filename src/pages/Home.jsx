@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="background-wrapper background-wrapper-home">
       <section className="hero frosted-card frosted-card-home">
-        <img className="hero-portrait" src="/assets/shared/images/portrait_square.png" alt="A portrait of Roderick Ellis"></img>
+        <img className="hero-portrait" src="/assets/shared/images/portrait_square.webp" alt="A portrait of Roderick Ellis"></img>
         <p className="eyebrow">Hi! I'm</p>
         <h1>Roderick Ellis</h1>
         <p className="lead">
