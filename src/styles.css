@@ -274,11 +274,20 @@ ul {
   max-width: 520px;
 }
 
+.frosted-card-projects {
+  max-width: 480px;
+  padding: 10px 20px;
+}
+
 .frosted-card-about {
   max-width: 800px;
 }
 
 /* Projects */
+
+.projects-container {
+  width: 100%;
+}
 
 .card-grid {
   display: grid;
