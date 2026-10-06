@@ -4,11 +4,19 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router'
 const links = [
   { to: '/', label: 'Home', end: true },
   { to: '/projects', label: 'Projects' },
-  { to: '/about', label: 'About Me' },
+  { to: '/about', label: 'About Me' }
 ]
+
+const pageTitles = {
+  '/': 'Home',
+  '/projects': 'Projects',
+  '/about': 'About Me'
+}
 
 export default function Layout() {
   const { pathname } = useLocation()
+
+  const currentPageName = pageTitles[pathname] || 'Home';
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -18,9 +26,17 @@ export default function Layout() {
     <>
       <header className="site-header">
         <div className="container header-inner">
-          <Link to="/" className="brand">
-            Dill Rellis
-          </Link>
+          <div>
+            <Link to="/" className="brand">
+              DillRellis.com
+            </Link>
+            <span className="brand page-title-pipe">
+              |
+            </span>
+            <span className="brand">
+              {currentPageName}
+            </span>
+          </div>
           <nav aria-label="Main">
             <ul className="nav-list">
               {links.map(({ to, label, end }) => (
@@ -41,7 +57,7 @@ export default function Layout() {
 
       <footer className="site-footer">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} Dill Rellis</p>
+          <p>&copy; {new Date().getFullYear()} Roderick Ellis</p>
         </div>
       </footer>
     </>

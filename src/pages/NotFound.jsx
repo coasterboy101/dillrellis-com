@@ -2,7 +2,7 @@ import { Link } from 'react-router'
 
 export default function NotFound() {
   return (
-    <section className="hero">
+    <section className="hero not-found-container">
       <p className="eyebrow">404</p>
       <h1>Page not found</h1>
       <p className="lead">There's nothing at this address.</p>
