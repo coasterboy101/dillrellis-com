@@ -248,14 +248,6 @@ ul {
   background-image: url('/assets/home/images/background.webp');
 }
 
-.background-wrapper-projects {
-  background-image: url('/assets/projects/images/background.webp');
-}
-
-.background-wrapper-about {
-  background-image: url('/assets/about/images/background.webp');
-}
-
 .frosted-card {
   max-width: 520px;
   padding: 40px;
@@ -274,24 +266,24 @@ ul {
   max-width: 520px;
 }
 
-.frosted-card-projects {
-  max-width: 480px;
-  padding: 10px 20px;
-}
-
-.frosted-card-about {
-  max-width: 800px;
-}
-
 /* Projects */
+
+.background-wrapper-projects {
+  background-image: url('/assets/projects/images/background.webp');
+}
 
 .projects-container {
   width: 100%;
 }
 
+.frosted-card-projects {
+  max-width: 480px;
+  padding: 10px 20px;
+}
+
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
   gap: 1.25rem;
   margin-top: 2.5rem;
 }
@@ -350,6 +342,14 @@ ul {
 }
 
 /* About */
+
+.background-wrapper-about {
+  background-image: url('/assets/about/images/background.webp');
+}
+
+.frosted-card-about {
+  max-width: 800px;
+}
 
 .prose {
   max-width: 68ch;
