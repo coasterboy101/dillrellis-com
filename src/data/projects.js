@@ -19,7 +19,7 @@ server.',
     description: 'My WebGL-based warship combat game, currently in early development. I am using it to learn some graphics programming, but the main reason \
 for starting the project is to evaluate Claude and determine how it can integrate into my workflow, as I have not gotten many opportunities to utilize Claude \
 for my day job. A link will be added to this page when I have an alpha version up and running.',
-    tags: ['Pixi.js', 'Vite', 'React', 'Linux', 'VSCode', 'Git', 'Claude'],
+    tags: ['PixiJS', 'Vite', 'React', 'Linux', 'VSCode', 'Git', 'Claude'],
     // link: 'https://github.com/coasterboy101/warships',
   },
   {
