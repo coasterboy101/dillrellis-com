@@ -366,8 +366,19 @@ ul {
   gap: 1.5rem;
 }
 
+.contact-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .contact-list a {
   font-weight: 600;
+  margin-left: 1rem;
+}
+
+.contact-list img {
+  width: 32px;
 }
 
 /* Footer */
