@@ -23,14 +23,15 @@ export default function About() {
           </p>
           <p>
             After leaving Datablaze, I worked for a scale company based out of Boise, Idaho called Total Scale Service. We provided custom software solutions 
-            that integrated customer's weighing devices (most often truck scales) with everything from simple cloud-accesible "remote displays" to full ticket 
-            and ERP system integrations. After being bought out by Michelli Weighing & Measurement in March of 2026, I continued to provide them my experience 
-            in full stack development and worked on delivering several major projects that were already in progress when the buyout happened.
+            that integrated customer's weighing devices (most often truck scales) with everything from simple cloud-accessible "remote displays" to full 
+            ticket and ERP system integrations. After being bought out by Michelli Weighing & Measurement in March of 2026, I continued to provide them my 
+            experience in full stack development and worked on delivering several major projects that were already in progress when the buyout happened.
           </p>
           <p>
-            In my spare time, I enjoy tinkering with electronics, designing things to 3D print, and building custom PCs. I am currently looking to relocate to 
-            the Seattle area, preferably with a local or remote job that will allow me to keep doing what I love. I've always heard that if you love your job, 
-            you'll never work a day in your life, and my experience bears that out!
+            In my spare time, I enjoy tinkering with electronics, designing things to 3D print, and building custom PCs. I also enjoy going to amusement parks 
+            any chance I get, and I always make sure to grab some pictures (all of the background images on this site were taken by me). I am currently 
+            looking to relocate to the Seattle area, preferably with a local or remote job that will allow me to keep doing what I love. I've always heard 
+            that if you love your job, you'll never work a day in your life, and my experience bears that out!
           </p>
 
           <h2>Skills</h2>
