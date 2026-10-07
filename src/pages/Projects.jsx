@@ -3,9 +3,11 @@ import { projects } from '../data/projects.js'
 export default function Projects() {
   return (
     <div className="background-wrapper background-wrapper-projects">
-      <section>
-        <h1>Projects</h1>
-        <p className="lead">A few things I've built or am working on.</p>
+      <section className="projects-container">
+        <section className="hero frosted-card frosted-card-projects">
+          <h1>Projects</h1>
+          <p className="lead">A few things I've built or am working on.</p>
+        </section>
 
         <ul className="card-grid">
           {projects.map(({ title, description, tags, link }) => (

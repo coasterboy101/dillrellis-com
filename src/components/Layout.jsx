@@ -57,7 +57,7 @@ export default function Layout() {
 
       <footer className="site-footer">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} Roderick Ellis</p>
+          <p>&copy; {new Date().getFullYear()} Roderick Ellis | Images &copy; Roderick Ellis</p>
         </div>
       </footer>
     </>
