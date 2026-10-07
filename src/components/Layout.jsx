@@ -30,10 +30,10 @@ export default function Layout() {
             <Link to="/" className="brand">
               DillRellis.com
             </Link>
-            <span className="brand page-title-pipe">
+            <span className="brand-no-hover page-title-pipe">
               |
             </span>
-            <span className="brand">
+            <span className="brand-no-hover">
               {currentPageName}
             </span>
           </div>

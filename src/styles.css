@@ -129,6 +129,14 @@ ul {
   color: var(--accent);
 }
 
+.brand-no-hover {
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  text-decoration: none;
+}
+
 .nav-list {
   display: flex;
   gap: 1.5rem;
