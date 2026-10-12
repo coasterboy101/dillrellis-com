@@ -193,7 +193,7 @@ ul {
 }
 
 .not-found-container {
-  padding: 5rem;
+  padding: clamp(1.5rem, 8vw, 5rem);
 }
 
 .eyebrow {
@@ -258,7 +258,7 @@ ul {
 
 .frosted-card {
   max-width: 520px;
-  padding: 40px;
+  padding: clamp(1.25rem, 6vw, 40px);
   color: white;
   background-color: rgba(64, 64, 64, 0.5); /* Semi-transparent layer is required */
   
@@ -291,7 +291,7 @@ ul {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(560px, 100%), 1fr));
   gap: 1.25rem;
   margin-top: 2.5rem;
 }
