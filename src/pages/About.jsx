@@ -16,22 +16,18 @@ export default function About() {
           <p className="lead">I'm a Full Stack Developer with over a decade of experience, currently looking to relocate to the Seattle area.</p>
 
           <p>
-            I've worked as a Full Stack developer for over a decade, starting with my position in October 2015 at a company in Eagle, Idaho called Datablaze.
-            I worked there for over nine years, initially working on writing and maintaining internal tools, and eventually moving up to working on bigger and 
-            bigger projects. In that time, I worked with C#, Microsoft SQL Server, and Xamarin, as well as doing a large chunk of the front-end work for our 
-            various web applications.
+            I started in October 2015 at Datablaze in Eagle, Idaho, where I spent over nine years moving from internal tools to increasingly larger projects.
+            I worked with C#, Microsoft SQL Server, and Xamarin, and did much of the front-end work for our web applications.
           </p>
           <p>
-            After leaving Datablaze, I worked for a scale company based out of Boise, Idaho called Total Scale Service. We provided custom software solutions 
-            that integrated customer's weighing devices (most often truck scales) with everything from simple cloud-accessible "remote displays" to full 
-            ticket and ERP system integrations. After being bought out by Michelli Weighing & Measurement in March of 2026, I continued to provide them my 
-            experience in full stack development and worked on delivering several major projects that were already in progress when the buyout happened.
+            I then joined Total Scale Service in Boise, Idaho, building custom software that integrated customers' weighing devices (most often truck scales)
+            with everything from simple cloud-accessible "remote displays" to full ticketing and ERP systems. After Michelli Weighing & Measurement bought the
+            company in March 2026, I stayed on to deliver several major projects already in progress.
           </p>
           <p>
-            In my spare time, I enjoy tinkering with electronics, designing things to 3D print, and building custom PCs. I also enjoy going to amusement parks 
-            any chance I get, and I always make sure to grab some pictures (all of the background images on this site were taken by me). I am currently 
-            looking to relocate to the Seattle area, preferably with a local or remote job that will allow me to keep doing what I love. I've always heard 
-            that if you love your job, you'll never work a day in your life, and my experience bears that out!
+            In my spare time, I tinker with electronics, design things to 3D print, and build custom PCs. I also visit amusement parks any chance I get, and
+            all of the background images on this site are my own photos. I'm looking to relocate to the Seattle area, with a local or remote job that lets
+            me keep doing what I love.
           </p>
 
           <h2>Skills</h2>
