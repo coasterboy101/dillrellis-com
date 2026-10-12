@@ -16,7 +16,7 @@ const pageTitles = {
 export default function Layout() {
   const { pathname } = useLocation()
 
-  const currentPageName = pageTitles[pathname] || 'Home';
+  const currentPageName = pageTitles[pathname] || 'Not Found';
 
   useEffect(() => {
     window.scrollTo(0, 0)
