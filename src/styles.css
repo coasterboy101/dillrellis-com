@@ -182,6 +182,7 @@ ul {
 
 .hero-portrait-about {
   width: 30%;
+  min-width: 160px;
 }
 
 .hero {
