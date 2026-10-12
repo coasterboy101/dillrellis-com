@@ -9,8 +9,8 @@ export default function Home() {
         <p className="eyebrow">Hi! I'm</p>
         <h1>Roderick Ellis</h1>
         <p className="lead">
-          I'm a full stack developer with over a decade of experience. I've mainly worked in the .NET ecosystem, 
-          but I'm always willing to change things up and learn new skills. I love to tinker with all things tech, 
+          I'm a full stack developer with over a decade of experience. I've got a lot of experience in the .NET ecosystem, 
+          and I'm always willing to change things up and learn new skills. I love to tinker with all things tech, 
           from building custom PCs to making custom ESP32-based electronics projects.
         </p>
         <div className="actions">
