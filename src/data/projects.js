@@ -16,9 +16,9 @@ hot-swappable Cherry MX style switches and talks to my self-hosted Home Assistan
   {
     title: 'Warships',
     description: 'A WebGL warship combat game in early development. It is my way of learning graphics programming and evaluating how Claude fits into my \
-workflow. A link will be added once an alpha version is up and running.',
+workflow.',
     tags: ['PixiJS', 'Vite', 'React', 'Linux', 'VSCode', 'Git', 'Claude'],
-    // link: 'https://github.com/coasterboy101/warships',
+    link: 'https://github.com/coasterboy101/warships',
   },
   {
     title: 'Space Engineers Scripts',
