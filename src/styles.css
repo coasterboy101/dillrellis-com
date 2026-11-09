@@ -307,8 +307,8 @@ ul {
   background-color: rgba(64, 64, 64, 0.5); /* Semi-transparent layer is required */
   
   /* This blurs everything sitting physically underneath the card */
-  backdrop-filter: blur(8px); 
   -webkit-backdrop-filter: blur(8px); /* Safari support */
+  backdrop-filter: blur(8px); 
   
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
