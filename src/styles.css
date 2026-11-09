@@ -6,7 +6,7 @@
   --bg: #121512;
   --surface: #1a1e1a;
   --text: #e8ebe8;
-  --text-muted: #a3aba5;
+  --text-muted: #c6cfc8;
   --border: #2b312c;
   --shadow: 0 8px 24px rgb(0 0 0 / 0.4);
   --radius: 12px;
@@ -261,7 +261,7 @@ ul {
   max-width: 520px;
   padding: clamp(1.25rem, 6vw, 40px);
   color: white;
-  background-color: rgba(64, 64, 64, 0.5); /* Semi-transparent layer is required */
+  background-color: rgba(32, 32, 32, 0.5); /* Semi-transparent layer is required */
   
   /* This blurs everything sitting physically underneath the card */
   backdrop-filter: blur(8px); 
